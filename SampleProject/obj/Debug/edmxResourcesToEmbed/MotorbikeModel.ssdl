@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="admin_fgjunterModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Motorbike">
+    <Key>
+      <PropertyRef Name="MotorbikeID" />
+    </Key>
+    <Property Name="MotorbikeID" Type="int" Nullable="false" />
+    <Property Name="Year" Type="year" Nullable="false" />
+    <Property Name="Manufacturer" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="Model" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="Mileage" Type="int" />
+    <Property Name="Description" Type="text" />
+    <Property Name="DateAdded" Type="datetime" Precision="0" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="admin_fgjunterModelStoreContainer">
+    <EntitySet Name="Motorbike" EntityType="Self.Motorbike" Schema="admin_fgjunter" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

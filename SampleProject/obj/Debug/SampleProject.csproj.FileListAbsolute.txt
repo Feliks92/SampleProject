@@ -80,3 +80,5 @@ D:\C#\SPOJ\SampleProject\SampleProject\bin\Microsoft.Owin.Security.MicrosoftAcco
 D:\C#\SPOJ\SampleProject\SampleProject\obj\Debug\SampleProject.csprojResolveAssemblyReference.cache
 D:\C#\SPOJ\SampleProject\SampleProject\obj\Debug\SampleProject.dll
 D:\C#\SPOJ\SampleProject\SampleProject\obj\Debug\SampleProject.pdb
+D:\C#\SPOJ\SampleProject\SampleProject\bin\MySql.Data.Entity.EF6.dll
+D:\C#\SPOJ\SampleProject\SampleProject\bin\MySql.Data.dll

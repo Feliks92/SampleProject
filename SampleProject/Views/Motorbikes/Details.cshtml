@@ -1,0 +1,67 @@
+﻿@model SampleProject.Motorbike
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Motorbike</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Year)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Year)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Model)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Model)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Mileage)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Mileage)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.DateAdded)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.DateAdded)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.MotorbikeID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
